@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(119, 121, 121);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(216, 216, 216);
+    border-radius: 50px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+
+body {
+    background: rgb(32, 32, 32);
+}
+
+h1 {
+    font-family: 'righteous';
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(243, 243, 243);
+}
+
+h2 {
+    font-family: 'righteous';
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(243, 243, 243);
+    padding-top: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'righteous';
+    gap: 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+nav > a {
+    text-decoration: transparent;
+    font-size: 25px;
+    color: rgb(243, 243, 243);
+}
+
+nav > a:hover {
+    color: aqua;
+}
+
+.components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    padding: 40px;
+    gap: 15px;
+
+    font-family: 'righteous';
+    color: rgb(243, 243, 243);
+}
+
+.components a:hover {
+    transform: scale(1.07,1.07);
+    transition: 1s;
+}
+
+.carrossel-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    height: 500px;
+    padding-top: 80px;
+    border-radius: 50px;
+}
+
+.box-banner {
+    border-radius: 10px;
+    border: 1px solid white;
+}

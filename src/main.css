@@ -1,0 +1,171 @@
+:root {
+    --azul: #2a93f5;
+    --preta: #141414;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--azul);
+    border-radius: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%);
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: #050505
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background: linear-gradient(to bottom, #050505, transparent);
+}
+
+header .imagenzinha {
+    margin-left: 40px;
+    color: var(--azul);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+    display: inline-flexbox;
+    font-family: 'Arial Black', Times;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+.search {
+    width: 60%;
+    text-align: right;
+    background: none;
+}
+
+.input-search {
+    position: relative;
+    width: 200px;
+    display: inline-block;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 2px solid silver;
+    background: none;
+    width: 500px;
+    color: white;
+}
+
+nav {
+    margin-right: 80px;
+}
+
+.box-filme {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cabeca .container .filme {
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+input {
+    background: none;
+    border: none;
+    height: 20px;
+    border-bottom: none;
+    width: 480px;
+    color: whitesmoke;
+}
+
+.banner-principal {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    font-family: 'Arial Black', Times;
+    margin-top: 200px;
+    margin-left: 110px;
+    font-size: 50px;
+}
+
+.botao-pagina-inicial {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 5px;
+    margin-left: 115px;
+    margin-top: 50px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao-pagina-inicial:hover {
+    background-color: var(--azul);
+    color: white;
+}
+
+.botao-pagina-inicial i {
+    margin-right: 8px;
+}
+
+.subtitulo {
+    font-family: 'Arial Black', Times;
+    margin-left: 115px;
+    margin-right: 550px;
+    margin-top: 10px;
+    max-height: 50px;
+    font-size: 20px;
+}
+
+.container-main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0, 0, 0, 0.30)100%), url('/img/Velozes-e-Furiosos-Hobbs-e-shaw-Netflix.jpg');
+    background-size: cover;
+    height: 700px;
+    
+}
+
+.box-filme:hover {
+    transform: scale(1.07,1.07);
+    transition: 1s;
+}
+
+.populares-no-harii {
+    font-family: 'Arial Black', Times;
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+    color: var(--azul);
+}

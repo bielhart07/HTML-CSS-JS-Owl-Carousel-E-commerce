@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Minimalista!</title>
+
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 class="logo">LOJA MINIMALISTA</h1>
+    <nav>
+        <a href="a">Buscar Pedido</a>
+        <a href="a">Entrar/Cadastre-se</a>
+    </nav>
+    <hr/>
+    <div class="carrossel-banner">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href=""><img class="box-banner" src="/src/image/Banner bielshop.png" alt=""></a>
+            </div>
+            <div class="item">
+                <a href=""><img class="box-banner" src="/src/image/Banner bielshop1.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    
+    <h2>Destaques do momento</h2>
+    <components class="components">
+        <a href="/index.html"><product-card
+        photo="/src/image/Luminária led de canto 2.png"
+        title="Luminária LED de canto"
+        ></product-card></a>
+        <a href="/index.html"><product-card
+        photo="/src/image/Luminária led de canto.png"
+        title="Luminária LED de canto"
+        ></product-card></a>
+        <a href="/index.html"><product-card
+        photo="/src/image/Nicho preto2.png"
+        title="Nicho Preto"
+        ></product-card></a>
+        <a href="/index.html"><product-card
+        photo="/src/image/prateleira u.png"
+        title="Prateleira em U"
+        ></product-card></a>
+        </components>
+</body>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&display=swap">
+
+<script src="/src/components/EcommerceCard.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(document).ready(function() {
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            dots: true,
+            responsive:{
+                0 : {
+                    items: 1
+                },
+                600 : {
+                    items: 1
+                },
+                1200 : {
+                    items: 1
+                },
+            },
+            autoplay: true,
+            autoplayTimeout: 5000,
+        });
+    })
+</script>
+</html>
